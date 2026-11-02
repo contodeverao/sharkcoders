@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo JS + CSS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+      background-color: #f0f8ff;
+    }
+
+    h1 {
+      color: #0077b6;
+      font-size: 2.5em;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 1em;
+      border: none;
+      border-radius: 8px;
+      background-color: #00b4d8;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #0077b6;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="titulo">Olá, SHARKS!</h1>
+  <button onclick="mudarTexto()">Clique aqui</button>
+
+  <script>
+    function mudarTexto() {
+      // procura o elemento pelo id
+      let elemento = document.getElementById("titulo");
+      
+      // altera o conteúdo do elemento
+      elemento.innerHTML = "O texto mudou com JavaScript!";
+    }
+  </script>
+</body>
+</html>

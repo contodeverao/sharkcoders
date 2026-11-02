@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo JS</title>
+</head>
+<body>
+  <h1 id="titulo">Olá, SHARKS!</h1>
+  <button onclick="mudarTexto()">Clique aqui</button>
+
+  <script>
+    function mudarTexto() {
+      // procura o elemento pelo id
+      let elemento = document.getElementById("titulo");
+      
+      // altera o conteúdo do elemento
+      elemento.innerHTML = "O texto mudou com JavaScript!";
+    }
+  </script>
+</body>
+</html>
+
