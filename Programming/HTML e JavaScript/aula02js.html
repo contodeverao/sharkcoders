@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Multiplicação em JavaScript</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 60px;
+      background-color: #f8f9fa;
+    }
+    h1 {
+      color: #0077b6;
+    }
+    #resultado {
+      margin-top: 20px;
+      font-size: 1.5em;
+      color: #ffffff;
+      background-color: #00b4d8;
+      display: inline-block;
+      padding: 15px 30px;
+      border-radius: 12px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>Multiplicação de Variáveis</h1>
+  <div id="resultado"></div>
+
+  <script>
+    // Criar as variáveis
+    let numero1 = 7;
+    let numero2 = 5;
+
+    // Multiplicar e guardar numa terceira variável
+    let resultado = numero1 * numero2;
+
+    // Mostrar o resultado dentro da página
+    document.getElementById("resultado").innerHTML = 
+      "O resultado de " + numero1 + " x " + numero2 + " é: " + resultado;
+  </script>
+</body>
+</html>
