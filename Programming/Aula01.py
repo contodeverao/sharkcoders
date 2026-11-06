@@ -20,3 +20,7 @@ else:
 
 # Mensagem final
 print("Fim do jogo.")
+
+#teste
+
+#teste2
